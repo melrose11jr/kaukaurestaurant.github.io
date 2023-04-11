@@ -1,0 +1,92 @@
+/* Set page background color */
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  /* Style for logo image */
+  header img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Style for navigation bar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+  
+  /* Style for image section */
+  .home-image {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Style for button */
+  .button {
+    background-color: #d4af37 !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    margin-left: 50px !important;
+  }
+  
+  .button:hover {
+    background-color: #e6ac00;
+  }
+  
+  /* Style for footer */
+  footer {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: black;
+  }
+  

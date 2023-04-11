@@ -1,0 +1,77 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  /* Style for logo image */
+  header img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Style for navigation bar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+
+  .about-us {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: black;
+  }
+  

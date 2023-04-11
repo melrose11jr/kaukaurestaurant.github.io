@@ -1,0 +1,123 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  /* Style for logo image */
+  header img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Style for navigation bar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+
+  /* Center menu-steps class and change font styles */
+.menu-steps {
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    margin-bottom: 200px;
+    margin-top: 150px;
+  }
+  
+  .menu-steps h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .menu-steps p {
+    font-style: italic;
+  }
+
+  
+  /* Style for café section */
+  #cafe {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+
+  }
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  /* Style for menu-grid */
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+  }
+  
+  .menu-item {
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid transparent;
+  }
+  
+  .menu-price {
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid transparent;
+  }
+  
+
+
+
+  footer {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: black;
+  }

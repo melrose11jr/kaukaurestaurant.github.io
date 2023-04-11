@@ -1,0 +1,100 @@
+/* Set page background color */
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  /* Style for logo image */
+  header img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Style for navigation bar */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    color: gold;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  p {
+    line-height: 1.5em; /* adjust as needed */
+    text-align: center;
+    justify-content:space-evenly ;
+    font-size: 1.2em; /* adjust as needed */
+    max-height: 8em; /* set to desired number of lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 50px;
+  }
+  
+  .text, .image-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .text {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .image-container {
+    text-align: center;
+    justify-content:center;
+
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+    /* Style for footer */
+    footer {
+        background-color: transparent;
+        padding: 20px 0;
+        text-align: center;
+      }
+      
+      footer p {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        color: black;
+      }
+      
